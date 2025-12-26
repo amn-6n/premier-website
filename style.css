@@ -68,6 +68,7 @@ nav {
       /* background-color: blue; */
       height: 100%;
       width: 18%;
+      font-size: 22px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -81,5 +82,84 @@ nav {
 
    h2:nth-last-child(1) {
       width: 10%;
+   }
+}
+
+#center {
+   width: 100%;
+   height: 90%;
+   /* background-color: red; */
+   padding: 3vw 5vw;
+   position: relative;
+
+   #content {
+      width: 100%;
+      height: 100%;
+      /* background-color: blue; */
+      position: relative;
+      color: #f8f8f8;
+
+      video {
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+      }
+
+      #overlay {
+         width: 100%;
+         height: 50%;
+         /* background-color: red; */
+         position: absolute;
+         left: 0;
+         bottom: 0;
+         padding: 0 2vw;
+
+         #over-top {
+            width: 100%;
+            height: 60%;
+            /* background-color: yellow; */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            h1 {
+               font-family: 'Monument-Bold';
+               font-size: 42px;
+            }
+
+            h2 {
+               padding: 4.2vh 2vw;
+               border-radius: 50px;
+               border: 1px solid white;
+               border-top: 4px solid white;
+               cursor: pointer;
+            }
+
+         }
+
+         hr {
+            border: none;
+            height: 1px;
+            background-color: white;
+         }
+
+         #over-bottom {
+            width: 100%;
+            height: 30%;
+            /* background-color: blue; */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            h2 {
+               font-size: 18px;
+            }
+
+            i {
+               font-size: 32px;
+               cursor: pointer;
+            }
+         }
+      }
    }
 }
