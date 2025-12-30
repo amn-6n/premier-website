@@ -97,7 +97,7 @@ nav {
       height: 100%;
       /* background-color: blue; */
       position: relative;
-      color: #f8f8f8;
+      color: white;
 
       video {
          width: 100%;
@@ -166,5 +166,44 @@ nav {
             }
          }
       }
+   }
+}
+
+#scroll {
+   width: 100%;
+   height: 40vh;
+   white-space: nowrap;
+   overflow-x: hidden;
+   overflow-y: hidden;
+
+   .container {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      padding: 2vw;
+      animation-name: scroll-anime;
+      animation-duration: 10s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      
+   }
+
+   img {
+      width: 14%;
+      height: 95%;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: top;
+      margin-inline: 1.5vw;
+   }
+
+}
+
+@keyframes scroll-anime {
+   from {
+      transform: translateX(0%);
+   }
+   to {
+      transform: translateX(-100%);
    }
 }
