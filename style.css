@@ -52,15 +52,27 @@ nav {
       position: relative;
       font-weight: 600;
 
-      /* &::after {
+      &::after {
          content: '©';
          position: absolute;
          top: 16px;
-         right: 70px;
+         right: 65px;
          font-family: Calibri;
          font-size: 20px;
          font-weight: lighter;
-      } */
+      }
+
+      &::before {
+         content: 'model management';
+         letter-spacing: 0.2px;
+         position: absolute;
+         bottom: 8px;
+         color: gray;
+         right: 84px;
+         font-family: Calibri;
+         font-size: 20px;
+         font-weight: lighter;
+      }
    }
 
    h2 {
