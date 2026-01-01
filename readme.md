@@ -1,6 +1,6 @@
 # Premier Website
 
-## Note:- This website is  still development. 
+## Note:- This website is  still in development. 
 
 ## Live Link
 
